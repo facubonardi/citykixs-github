@@ -43,7 +43,15 @@
 .custom-toggler{
     color: white;
     border-color: white;
+    background-color: white;
 }
+
+.btn-white{
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 
 
@@ -153,6 +161,13 @@ padding-bottom: 1px;
     filter: grayscale(1);
 }
 
+
+
+.page-link{
+    color: white;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
 /*---------------FOOTER--------------------------*/
 
 footer{
@@ -337,7 +352,7 @@ justify-content: center;
 }
 
 .metodosPago img{
-    width: 500px;
+    width: 400px;
     margin-right: 50px;
     margin-bottom: 50px;
     margin-left: 20px;
@@ -350,7 +365,7 @@ justify-content: center;
 }
 
 .entregas img{
-    width: 500px;
+    width: 400px;
     margin-right: 50px;
     margin-bottom: 50px;
     margin-left: 20px;
@@ -363,7 +378,7 @@ justify-content: center;
 }
 
 .devoluciones img{
-    width: 500px;
+    width: 400px;
     margin-right: 50px;
     margin-bottom: 50px;
     margin-left: 20px;
@@ -375,7 +390,7 @@ justify-content: center;
     align-items: center;
 }
 .seguimiento img{
-    width: 500px;
+    width: 400px;
     margin-right: 50px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -409,6 +424,9 @@ justify-content: center;
     margin-top: 50px;
     margin-left: 20px;
     margin-bottom: 20px;
+}
+.btn{
+    background-color: black;
 }
 
 .imagenContacto{
@@ -451,6 +469,77 @@ justify-content: center;
         height: auto;
     }
 
+    .cardUno{
+        margin: 5px auto;
+        border-radius: 5%;
+    }
+    .primeraFila{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .jordanRojas{
+        margin-right: 180px;
+    }
+    .segundaFila{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .travisMarrones{
+        margin-right: 180px;
+        margin-top: 40px;
+    }
+    .terceraFila{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .yeezysNegras{
+        margin-right: 180px;
+        margin-top: 40px;
+    }
+    .cuartaFila{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .vansMarrones{
+        margin-right: 180px;
+        margin-top: 40px;
+    }
+    .quintaFila{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .forumBlancas{
+        margin-right: 180px;
+        margin-top: 30px;
+    }
+
+    .titulosProductos{
+        font-size: 22px;
+    }
+
+    .colorFooter {
+        background-color: #000000; 
+        padding: 20px; 
+    }
+    
+    .itemsFooter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 180px;
+    }
+    
+    .listasFooter {
+        flex: 0 0 calc(33.33% - 20px); 
+        list-style: none;
+        padding: 0;
+        color: white; 
+    }
+    
+    .titulosFooter {
+        font-weight: bold; 
+    }
+
 }
 
 @media(max-width:375px){
@@ -460,17 +549,12 @@ justify-content: center;
     .carousel-item img{
         height: auto;
     }
-    .cardUno div{
-        width: auto;
-        height: auto;
+    .cardUno{
+        margin: 10px auto;
+        border-radius: 5%;
     }
-    .letrasCajas h2 p{
-        font-size: 10px;
-    }
-
-    .botonMain{
-        width: auto;
-        height: auto;
+    .itemsFooter{
+        margin-left: 15px;
     }
 }
 
